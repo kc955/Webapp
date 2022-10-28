@@ -1,0 +1,16 @@
+{
+    "articles" : [
+            {
+                "title":"Prof.Healy's event",
+                "author": "Kevin Candra",
+                "content": "This event talks about possible carrer paths for psychologists",
+                "link": "https://docs.google.com/document/d/e/2PACX-1vQj6O7aEebrTXCnbmSaHTVIcbXM74lJ4LLw32o108P877WiteJ8zgXN24mKd-jplwbsSNUSEJNqotUj/pub?embedded=true"
+        
+            },
+            {
+                "title":"This is the first article",
+                "author": "I made this website",
+                "content": "Hey, this is the second article in this website, please ignore"  
+            }
+        ]
+}

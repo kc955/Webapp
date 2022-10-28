@@ -1,0 +1,14 @@
+{
+    "schools" : [
+            {
+                "name":"De_Anza",
+                "email": "psychclubda@gmail.com",
+                "num" : 0
+            },
+            {
+                "name":"De_Anza",
+                "email": "psychclubda@gmail.com",
+                "num": 1
+            }
+        ]
+}
