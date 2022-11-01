@@ -31,18 +31,18 @@
 						<AccordionSection on:panel-open={closeOtherPanels}>
 							<div slot="handle" let:toggle>
 							<Button on:click={toggle}>
-								{school.name}              +
+								<h3>{school.name}		+</h3>
 							</Button>
 							</div>
 							<Divider/>
-							<a href="./{school.name}">
-								<Button>
-									<h2>Event calendar</h2>
-								</Button>
-							</a>
 							<a href="./{school.name}/articles">
 								<Button>
 									<h2>Meeting notes</h2>
+								</Button>
+							</a>
+							<a href="./{school.name}">
+								<Button>
+									<h2>Event calendar</h2>
 								</Button>
 							</a>
 							<a href="https://mail.google.com/mail/?view=cm&fs=1&to={school.email}&su=question&body=BODY">
@@ -57,19 +57,24 @@
 
 </nav>
 <footer>
-	<Card outline>
-		<a href="./resource">
-			<h2>click here to see fliers</h2>
-		</a>		
-	</Card>
+	<div class = "foot">
+		<Card outline>
+			<a href="./fliers">
+				<h2>click here to see fliers</h2>
+			</a>		
+		</Card>
+	</div>
 </footer>
 
 
 
 
 <style>
+	.foot{
+		background-color: #f04242ab;
+	}
 	body {
-		font-family: 'Roboto';font-size: 22px;
+		font-family: 'Roboto';font-size: 0.8em;
 		margin: 0px;
 		padding: 0px;
 	}
@@ -79,7 +84,7 @@
 		bottom: 30px;
 	}
 	nav{
-		background-color: rgb(209, 209, 209);
+		background: linear-gradient(0, rgb(255, 255, 255), rgb(196, 196, 196));
 		font-size: 1em;
 		min-height: 700px;
 	}
@@ -95,20 +100,22 @@
 		color: #ff0000;
 		text-transform: uppercase;
 		font-size: 3em;
-		font-weight: 100;
-		font-family: 'Roboto'
+		font-weight: 400;
+		font-family: 'Roboto';
 	}
 	h2 {
 		color: #9c03ee;
 		text-transform: uppercase;
 		font-size: 1em;
-		font-weight: 20;
+		font-weight: 40;
 		text-decoration: none;
 	}
 	h3 {
-		color: #ffffff;
+		color: #f90303;
 		text-transform: uppercase;
-		font-weight: 20;
+		font-size: 1.25em;
+		font-weight: 70;
+		text-decoration: none;
 	}
 
 	@media (min-width: 640px) {
@@ -126,8 +133,9 @@
 	}
 	.used{
 		position: absolute;
-		width: 400px;
-		left: 10px;
+		width: 600px;
+		left: 300px;
+		top: 150px;
 	}
 
 </style>

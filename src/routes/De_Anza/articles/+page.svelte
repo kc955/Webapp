@@ -19,7 +19,7 @@
 			<CollapsibleSection headerText={article.title} >
 				<div class = "article">
 					<h2 class = "subtitle"> {article.author} </h2>
-					<h2 class = "subtitle"> date </h2>
+					<h2 class = "subtitle"> {article.date} </h2>
 					<div class="content">
 							{article.content}
 					</div>
@@ -41,7 +41,7 @@
 	}
     .subtitle {
         background-color: #ffffff;
-		font: Roboto;
+		font: sans-serif;
 		font-size: 0.75em;
     }
 	h3 {

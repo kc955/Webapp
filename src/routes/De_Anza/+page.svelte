@@ -1,4 +1,4 @@
-<div>
+<div class = "box">
     <iframe src="https://calendar.google.com/calendar/embed?src=77502146c1cc7cfed3e0f47b3e0a4ba4bfedc86c02be1933286bc09eae9f7b0e%40group.calendar.google.com&ctz=America%2FLos_Angeles" 
     style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 </div>

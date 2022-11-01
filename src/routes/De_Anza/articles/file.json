@@ -4,13 +4,16 @@
                 "title":"Prof.Healy's event",
                 "author": "Kevin Candra",
                 "content": "This event talks about possible carrer paths for psychologists",
+                "date": "2021",
                 "link": "https://docs.google.com/document/d/e/2PACX-1vQj6O7aEebrTXCnbmSaHTVIcbXM74lJ4LLw32o108P877WiteJ8zgXN24mKd-jplwbsSNUSEJNqotUj/pub?embedded=true"
         
             },
             {
-                "title":"This is the first article",
-                "author": "I made this website",
-                "content": "Hey, this is the second article in this website, please ignore"  
+                "title":"Meeting with M.J Willard",
+                "author": "Kevin Candra",
+                "date": "10/16/20",
+                "content": "M.J Willard was a research assistant for B.F Skinner. She also found an organization that trains monkey to help disables people. Here, she will be talking about her journey." ,
+                "link" : "https://docs.google.com/document/d/e/2PACX-1vTI5bNUBkya9dyvOQv_N1037deYrl1oHdekj-3MRZQjDNlQBhuPfrMim34n7h2R4-Et44RY1Byev_l3/pub?embedded=true"
             }
         ]
 }

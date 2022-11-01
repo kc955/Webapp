@@ -46,7 +46,7 @@
 		border: none;
 		margin: 0;
 		padding: 1em 0.5em;
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .content{
