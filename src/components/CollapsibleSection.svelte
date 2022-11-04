@@ -30,7 +30,7 @@
   .collapsible {
     border: 1px solid var(--gray-light, rgb(151, 151, 151));
     width: 20cm;
-    font-family: 'Roboto';font-size: 17px;
+    font-family: 'Roboto';font-size: 0.9vw;
   }
 	
 	h3 {

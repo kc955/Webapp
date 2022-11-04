@@ -96,21 +96,21 @@
 	h1 {
 		color: #ff0000;
 		text-transform: uppercase;
-		font-size: 3em;
+		font-size: 2.75vw;
 		font-weight: 400;
 		font-family: 'Roboto';
 	}
 	h2 {
 		color: #9c03ee;
 		text-transform: uppercase;
-		font-size: 1em;
+		font-size: 1vw;
 		font-weight: 40;
 		text-decoration: none;
 	}
 	h3 {
 		color: #f90303;
 		text-transform: uppercase;
-		font-size: 1.25em;
+		font-size: 1.25vw;
 		font-weight: 70;
 		text-decoration: none;
 	}

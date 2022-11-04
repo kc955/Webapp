@@ -27,7 +27,7 @@
   }
   div.backdrop {
     position: absolute;
-    width: 70%;
+    width: 80%;
     height: 70%;
     background-color: rgba(0, 0, 0, 0.4);
 
@@ -55,7 +55,7 @@
     {#if isOpen}
     <div class="modal">
         <div class="backdrop" on:click={close} />
-          <Button on:click={close} style="font-size: 2em; color:black">x</Button>
+          <Button on:click={close} style="font-size: 3vw; color:black">x</Button>
           <div class="content-wrapper">
             <div>
                 <h1>{title}</h1>
