@@ -3,7 +3,7 @@
     // Inclusive Components by Heydon Pickering https://inclusive-components.design/collapsible-sections/
     export let headerText;
 
-    let expanded = false
+    let expanded = true;
 </script>
 
 <link
@@ -28,7 +28,7 @@
 
 <style>
   .collapsible {
-    border-bottom: 1px solid var(--gray-light, rgb(194, 194, 194));
+    border: 1px solid var(--gray-light, rgb(151, 151, 151));
     width: 20cm;
     font-family: 'Roboto';font-size: 17px;
   }
@@ -51,10 +51,10 @@
 
   .content{
     background-color: rgb(146, 146, 146);
-    border: #000000;
+    border: #000000, 3px;
   }
   button[aria-expanded="true"] {
-    border-bottom: 1px solid var(--gray-light, rgb(225, 225, 225));
+    border: 1px solid var(--gray-light, rgb(190, 190, 190));
   }
 
     button[aria-expanded="true"] .vert {

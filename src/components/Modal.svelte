@@ -30,6 +30,9 @@
     width: 70%;
     height: 70%;
     background-color: rgba(0, 0, 0, 0.4);
+
+    justify-content: center;
+    align-items: center;
   }
   div.content-wrapper {
     z-index: 10;
@@ -52,7 +55,7 @@
     {#if isOpen}
     <div class="modal">
         <div class="backdrop" on:click={close} />
-          <Button on:click={close} style="font-size: 3em; color:red">x</Button>
+          <Button on:click={close} style="font-size: 2em; color:black">x</Button>
           <div class="content-wrapper">
             <div>
                 <h1>{title}</h1>

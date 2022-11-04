@@ -31,7 +31,7 @@
 						<AccordionSection on:panel-open={closeOtherPanels}>
 							<div slot="handle" let:toggle>
 							<Button on:click={toggle}>
-								<h3>{school.name}		+</h3>
+								<h3>{school.name} &emsp&emsp&emsp&emsp&emsp&emsp&emsp&emsp+</h3>
 							</Button>
 							</div>
 							<Divider/>
@@ -70,9 +70,6 @@
 
 
 <style>
-	.foot{
-		background-color: #f04242ab;
-	}
 	body {
 		font-family: 'Roboto';font-size: 0.8em;
 		margin: 0px;
@@ -126,16 +123,15 @@
 
 	.accor {
 		background-color: #ffffff;
-		width: 400px;
+		width: auto;
 		border: black 3px;
 		border-radius: 20px 12px 20px 12px;
 		padding: 2;
 	}
 	.used{
 		position: absolute;
-		width: 600px;
-		left: 300px;
-		top: 150px;
+		left: 10%;
+		top: 22%;
 	}
 
 </style>
