@@ -50,7 +50,7 @@
 </style>
 
 <div>
-    <Button on:click={open} style="font-size: 1vw;">Read More</Button>
+    <Button on:click={open} style="font-size: 0.75vw + 20px;">Read More</Button>
 
     {#if isOpen}
     <div class="modal">

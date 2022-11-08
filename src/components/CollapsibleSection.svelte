@@ -14,7 +14,7 @@
 <div class="collapsible">
     <h3>
         <button aria-expanded={expanded} on:click={() => expanded = !expanded}>
-          {headerText}
+          <h1>{headerText}</h1>
           <svg viewBox="0 0 20 20" fill="none" >
             <path class="vert" d="M10 1V19" stroke="black" stroke-width="2"/>
             <path d="M1 10L19 10" stroke="black" stroke-width="2"/>
@@ -30,7 +30,12 @@
   .collapsible {
     border: 1px solid var(--gray-light, rgb(151, 151, 151));
     width: 20cm;
-    font-family: 'Roboto';font-size: 0.9vw;
+    font-family: 'Roboto';font-size: calc(0.5vw +0.35em);
+  }
+
+  h1{
+    font-weight: 70;
+    font-size:calc(0.7vw + 0.35em);
   }
 	
 	h3 {

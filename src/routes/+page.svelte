@@ -103,14 +103,14 @@
 	h2 {
 		color: #9c03ee;
 		text-transform: uppercase;
-		font-size: 1vw;
+		font-size: calc(0.75vw + 0.25em);
 		font-weight: 40;
 		text-decoration: none;
 	}
 	h3 {
 		color: #f90303;
 		text-transform: uppercase;
-		font-size: 1.25vw;
+		font-size: calc(1vw + 0.5em);
 		font-weight: 70;
 		text-decoration: none;
 	}
